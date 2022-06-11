@@ -1,0 +1,23 @@
+{
+  "name": "@dse/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MJsuriya/dse.git",
+  "author": "Jeya Suriya Muthumari <jeya.suriyam@emsibg.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
+}
