@@ -1,5 +1,5 @@
+import { Spacing } from '@dse/foundation';
 import React from 'react';
-import Spacing from '../../foundation/Spacing.js';
 
 const Color = ({ hexCode, width = Spacing.sm, height = Spacing.sm, }) => {
     var className = `dse-width-${width} dse-height-${height}`;
